@@ -6,9 +6,17 @@ def generate_random_list():
     randonlength = random.randint(1, 100)
 
     for i in range(randonlength):
-        aux_list.append(randonlength)
-        i += i
+        aux_list.append(i)
     return aux_list
+
 my_stupid_list = generate_random_list()
 
+the_last_one = my_stupid_list[len(my_stupid_list)-1]
+the_last_one2 = my_stupid_list[-1]
+
+
 # Feel happy to write the code below this comment, good luck!:
+
+print(my_stupid_list)
+print(the_last_one2)
+print(the_last_one)

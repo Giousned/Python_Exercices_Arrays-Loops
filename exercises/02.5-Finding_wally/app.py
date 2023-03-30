@@ -2,3 +2,36 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
+for i in range(0, len(people)):
+    if people[i] == "Wally":
+        print(i)
+
+
+# SOLUCIONES DE INTERNET
+# wally_indices  = [index for (index, item) in enumerate(people) if item == "Wally"]
+
+# print(wally_indices)
+
+
+
+# MI SOLUCION
+# indices_wally = []
+
+# for i in range(0, len(people)):
+#     if people[i] == "Wally":
+#         indices_wally.append(i)
+
+# for item in indices_wally:
+#     print(item)
+
+
+
+# ENCONTRANDO LAS PERSONAS CON FILTER, NO SUS INDICES
+# def find(personas):    # Primero declaramos una función condicional
+#     if personas == "Wally":  # Comprobamos si un numero es múltiple de cinco
+#         return True      # Sólo devolvemos True si lo es
+
+# print(list(filter(find,people)))
+
+# AQUI NO SE USAR TAN BIEN FILTER
+# find_wally = list(filter(lambda item: item == "Wally", people))
