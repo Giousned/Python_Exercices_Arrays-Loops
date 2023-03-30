@@ -7,19 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-
-def find_string(name):
-    return name.lower().find("am") != -1
-
-new_list = list(filter(find_string, names))
-
-print(new_list)
-
-
-# OTRA SOLUCION, QUE VA BIEN PERO NO PASA EL TEST
-# def find_string(name):
-#     return "am" in name
-
-# new_list = list(filter(find_string, names))
-
-# print(new_list)
